@@ -7,5 +7,7 @@ message or see his inbox to figure out what’s new? The crafting of message inc
 accessing the contacts. The user can instantly see his message and the corresponding cipher text.
 There is a tutorial accompanied to understand how the encryption and decryption is being done. The
 receiver finally will receive the sms which this application will decrypt and store in its inbox. The
-app also supports group messaging, wherein a common message can be sent to a group of receivers
+app also supports group messaging, wherein a common message can be sent to a group of receivers. 
 
+It provides an additional layer of Encryption of AES as GCM is vulnerable to many known attacks.
+Supports API level 25 and below.
