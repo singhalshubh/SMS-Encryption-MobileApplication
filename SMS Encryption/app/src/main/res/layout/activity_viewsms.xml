@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".viewsms">
+    android:background="@drawable/background">
+    <Button
+        android:id="@+id/craft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="419dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="264dp"
+        android:background="@android:color/background_light"
+        android:text="Craft"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/inbox"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/inbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="419dp"
+        android:layout_marginBottom="264dp"
+        android:background="@android:color/background_light"
+        android:ellipsize="middle"
+        android:fontFamily="@font/night"
+        android:text="Inbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/craft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="323dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginBottom="72dp"
+        android:text="Welcome to the Suraksha. You are now an official member of our application and can avail the benefits of secure communication with your loved ones. We are happy to announce you as a part of our family.  You can now draft a messsage or see your inbox for any recent updates. Tour still awaits your presence"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/craft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="98dp"
+        android:text="What's next?"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
+
+</android.support.constraint.ConstraintLayout>
