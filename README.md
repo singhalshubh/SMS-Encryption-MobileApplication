@@ -10,4 +10,5 @@ receiver finally will receive the sms which this application will decrypt and st
 app also supports group messaging, wherein a common message can be sent to a group of receivers. 
 
 It provides an additional layer of Encryption of AES as GCM is vulnerable to many known attacks.
-Supports API level 25 and below.
+Supports API level 25 and below. Designed only for messages of length up-to 400 characters.
+Impact: Cannot be deciphered, thus making it more secure.
