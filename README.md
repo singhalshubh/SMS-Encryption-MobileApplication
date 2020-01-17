@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/singhalshubh/sms-encryption-mobileapplication/badge)](https://www.codefactor.io/repository/github/singhalshubh/sms-encryption-mobileapplication)
+
 # SMS-Encryption-MobileApplication
 The project focuses on the basic sms transfer from one sender to another safely. The "safe" word
 describes that any intruder should not be able to retrieve the message from the known attacks
